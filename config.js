@@ -295,7 +295,7 @@ module.exports = {
      *
      * This will affect both logging to the console and the disk.
      */
-    logLevel: 'info',
+    logLevel: 'error',
 
     /*  clients can use the /settings/ app to opt out of usage feedback
      *  which informs the server of things like how much each app is being
