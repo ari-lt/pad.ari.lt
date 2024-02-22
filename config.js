@@ -50,7 +50,7 @@ module.exports = {
  *  cryptpad/docs/example.nginx.conf (see the $main_domain variable)
  *
  */
-    httpUnsafeOrigin: 'https://pad.ari.lt',
+	httpUnsafeOrigin: 'https://pad.ari.lt',
 
 /*  httpSafeOrigin is the URL that is used for the 'sandbox' described above.
  *  If you're testing or developing with CryptPad on your local machine then
@@ -71,7 +71,7 @@ module.exports = {
  *
  *  CUSTOMIZE AND UNCOMMENT THIS FOR PRODUCTION INSTALLATIONS.
  */
-    httpSafeOrigin: "https://pad.ari.lt",
+    httpSafeOrigin: "https://spad.ari.lt",
 
 /*  httpAddress specifies the address on which the nodejs server
  *  should be accessible. By default it will listen on localhost
@@ -107,7 +107,7 @@ module.exports = {
  *  to this port.
  *
  */
-     // websocketPort: 8176,
+     websocketPort: 8175,
 
 /*  CryptPad will launch a child process for every core available
  *  in order to perform CPU-intensive tasks in parallel.
@@ -115,7 +115,7 @@ module.exports = {
  *  or you may want to limit how much computing power CryptPad can take.
  *  If so, set 'maxWorkers' to a positive integer.
  */
-     maxWorkers: 4,
+     maxWorkers: 5,
 
     /* =====================
      *       Sessions
@@ -156,7 +156,7 @@ module.exports = {
      *
      */
     adminKeys: [
-
+	    "[ari@pad.ari.lt/v2s+YO9lJhVPgRqGAO71uUjOS0ctBlmEwEAv8BPJyzY=]",
     ],
 
     /* =====================
